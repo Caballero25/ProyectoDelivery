@@ -14,7 +14,6 @@ Las tecnologías que se utilizaron para la creación de esta aplicación son:
 - **Django:** Framework web de alto nivel basado en Python que facilita el desarrollo rápido y seguro de aplicaciones web.
 - **JavaScript:** Lenguaje de programación que agrega interactividad y dinamismo a la aplicación del lado del cliente.
 - **MySQL:** Sistema de gestión de bases de datos relacional utilizado para almacenar y recuperar datos de forma eficiente.
-- 
 
 ## Autores
 - Aurora Martinez - UX/UI
