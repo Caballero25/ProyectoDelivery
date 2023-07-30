@@ -18,6 +18,6 @@ Las tecnologías que se utilizaron para la creación de esta aplicación son:
 ## Autores
 - Aurora Martinez - UX/UI
 - David Caballero - Backend
-- Leonel D'agostino - Frontend
+- Santiago Pineda - Frontend
 
 Esperamos que disfrutes trabajando con Sabrosito tanto como nosotros disfrutamos desarrollándolo. Si tienes alguna pregunta o problema, no dudes en abrir un issue en este repositorio. ¡Buen provecho! 🌮🌯🍹
