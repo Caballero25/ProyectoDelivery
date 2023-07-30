@@ -1,0 +1,57 @@
+{% extends "Base.html" %}
+{% load static %}
+
+{% block meta%}
+<title>Sabrocito - Menu</title>
+{% endblock %}
+
+{% block body %}
+<head>
+  <link rel="stylesheet" href="{% static '/Css/Menu.css' %}" media="screen">
+</head>
+
+
+<section class="u-align-center u-clearfix u-section-1" id="sec-ce00" style="margin: 1.5rem auto;">
+  <div class="u-clearfix u-sheet u-valign-middle u-sheet-1"style="background-color: #D9D9D9;">
+    <lt-highlighter class="lt-highlighter--grid-item" style="display: none; z-index: 1 !important;">
+      <lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 144px; height: 53px; transform: none !important; transform-origin: 72px 26.4px !important; zoom: 1 !important; margin-top: 62px; margin-left: 498px;">
+        <lt-div class="lt-highlighter__scroll-element" style="top: 0px; left: 0px; width: 144px; height: 55px;">
+          <canvas class="lt-highlighter__canvas" width="144" height="55" style="display: none; top: 0px; left: 0px;"></canvas>
+        </lt-div>
+      </lt-div>
+    </lt-highlighter>
+    <h1 class="u-titulo-menu" style="font-weight: 600;" >Menu</h1>
+  </div>
+</section>
+
+
+
+
+<section class="u-clearfix u-section-2" >
+  <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+    <div class="u-expanded-width u-list u-list-1">
+      <div class="u-repeater u-repeater-1">
+        <div class="u-container-style u-image u-list-item u-repeater-item u-shading u-image-1" >
+          <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1" id="cuadritos">
+            <img src="{% static '/img/bg.jpg' %}" style="width: 100%;">
+            <a href="{% url 'desayunos'%}"><h3 class="u-text u-text-default u-text-1" id="cuadrito_texto">Desayunos</h3></a>
+          </div>
+        </div>
+        <div class="u-container-style u-image u-list-item u-repeater-item u-shading u-image-2">
+          <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2 u-tarjeta cuadritos" id="cuadritos">
+            <img src="{% static '/img/descarga_c.jpg' %}" style="width: 100%;">
+            <a href="{% url 'almuerzos'%}"><h3 class="u-text u-text-default u-text-3"id="cuadrito_texto">Almuerzos</h3></a>
+          </div>
+        </div>
+        <div class="u-container-style u-image u-list-item u-repeater-item u-shading u-image-3">
+          <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3" id="cuadritos">
+            <img src="{% static '/img/bg.jpg' %}" style="width: 100%;">
+            <a href="{% url 'bebidas'%}"><h3 class="u-text u-text-default u-text-5" id="cuadrito_texto">Bebidas</h3></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

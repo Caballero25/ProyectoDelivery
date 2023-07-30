@@ -1,0 +1,62 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 808px;
+}
+
+.u-section-1 .u-checkout-1 {
+  min-height: 755px;
+  height: auto;
+  width: 1065px;
+  margin: 30px auto 23px;
+}
+
+.u-section-1 .u-table-cell-1 {
+  font-weight: 700;
+}
+
+.u-section-1 .u-table-cell-3 {
+  font-weight: 700;
+}
+
+.u-section-1 .u-table-cell-4 {
+  font-weight: 700;
+}
+
+.u-section-1 .u-btn-1 {
+  margin-top: 20px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-checkout-1 {
+    width: 940px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-checkout-1 {
+    width: 720px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-checkout-1 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-checkout-1 {
+    width: 340px;
+  }
+}
+
+
+.comerSabrosito {
+    width: 90%;
+    height: 90%;
+    background-image: url('/home/sabrocito/c12-17-t-python/sabrosito-react/static/img/sabrositoPagoComer.png');
+}
+
+.comerSabrosito {
+    height: 90%;
+    background-size: cover;
+}

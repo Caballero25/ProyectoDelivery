@@ -1,0 +1,19 @@
+{% load static %}
+
+{% block header %}
+
+<head>
+  <link rel="stylesheet" href="{% static '/Css/top.css' %}" media="screen"-->
+</head>
+
+<div class="top-bar">
+  <div class="contact-info">
+    Datos de contacto: +123456789 | sabrositorte@gmail.com
+  </div>
+  <div class="social-icons">
+    <a href="#"><img src="{% static 'img/facebook.png'%}" alt="Facebook" class="social" ></a>
+    <a href="#"><img src="{% static 'img/instagram.png' %}" alt="Instagram" class="social"></a>
+    <a href="#"><img src="{% static 'img/twitter.png' %}" alt="Twitter" class="social"></a>
+  </div>
+</div>
+{% endblock %}

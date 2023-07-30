@@ -1,0 +1,150 @@
+{% extends "Base.html"%}
+{% load static %}
+
+{% block meta%}
+<title>Sabrocito - Inicio</title>
+{% endblock %}
+
+
+{% block body %}
+<head>
+  <link type="text/css" rel="stylesheet" href="{% static '/Css/main.css' %}">
+  <link type="text/css" rel="stylesheet" href="{% static '/Css/galeria.css' %}">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+</head>
+<section class="u-clearfix u-image u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-section-1" id="carousel_0d8f" data-image-width="1000" data-image-height="600">
+  <div class="u-clearfix u-layout-wrap u-layout-wrap-1">
+    <div class="u-layout">
+      <div class="u-layout-row">
+        <div class="u-align-left u-container-style u-layout-cell u-left-cell u-size-19 u-layout-cell-1">
+          <div class="u-container-layout u-container-layout-1">
+            <h1 class="u-text u-text-1"> <span style="font-weight: 700;">Sabrocito</span>
+            </h1>
+            <p class="u-text u-text-2"> En Sabrocito, te ofrecemos una experiencia culinaria única y sabrosa. Nuestro objetivo es deleitar tus sentidos y satisfacer tus antojos con una amplia selección de platos preparados con amor y cuidado. </p>
+            <a href="{% url 'menu'%}" class="u-active-black u-border-none u-btn u-btn-round u-button-style u-custom-font u-font-lato u-hover-black u-palette-3-base u-radius-10 u-btn-1">Ver Menu</a>
+          </div>
+        </div>
+        <div class="u-container-style u-image u-layout-cell u-right-cell u-size-41 u-image-1" data-image-width="1000" data-image-height="600">
+          <div class="u-container-layout u-container-layout-2"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="u-align-center u-clearfix u-section-2" id="sec-9992">
+  <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+    <lt-highlighter class="lt-highlighter--grid-item" style="display: none; z-index: 1 !important;">
+      <lt-div spellcheck="false" class="lt-highlighter__wrapper" style="width: 195px; height: 53px; transform: none !important; transform-origin: 97.6px 26.4px !important; zoom: 1 !important; margin-top: 62px; margin-left: 472px;">
+        <lt-div class="lt-highlighter__scroll-element" style="top: 0px; left: 0px; width: 195px; height: 55px;"></lt-div>
+      </lt-div>
+    </lt-highlighter>
+    <h1 class="u-text u-text-default u-text-1">Ofertas</h1>
+  </div>
+</section>
+
+
+<div class=""><div class="body">
+<section id="tranding">
+
+  <div class="container">
+    <div class="swiper tranding-slider">
+      <div class="swiper-wrapper">
+        <!-- Slide-start -->
+        <div class="swiper-slide tranding-slide">
+          <div class="tranding-slide-img">
+            <img src="{% static 'img/tranding-food-1.png'%}" alt="Tranding">
+          </div>
+          <div class="tranding-slide-content">
+            <div class="tranding-slide-content-bottom">
+              <h2 class="food-name">
+                Special Pizza $10
+              </h2>
+              <h3 class="food-rating">
+                <span>4.5</span>
+                <div class="rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+              </h3>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="swiper-slide tranding-slide">
+          <div class="tranding-slide-img">
+            <img src="{% static 'img/tranding-food-6.png'%}" alt="Tranding">
+          </div>
+          <div class="tranding-slide-content">
+
+            <div class="tranding-slide-content-bottom">
+              <h2 class="food-name">
+                Vanilla cake $10
+              </h2>
+              <h3 class="food-rating">
+                <span>4.5</span>
+                <div class="rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+              </h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-slide tranding-slide">
+          <div class="tranding-slide-img">
+            <img src="{% static 'img/tranding-food-7.png'%}" alt="Tranding">
+          </div>
+          <div class="tranding-slide-content">
+
+            <div class="tranding-slide-content-bottom">
+              <h2 class="food-name">
+                Straw Cake $10
+              </h2>
+              <h3 class="food-rating">
+                <span>4.5</span>
+                <div class="rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                </div>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tranding-slider-control">
+        <div class="swiper-button-prev slider-arrow">
+          <ion-icon name="arrow-back-outline"></ion-icon>
+        </div>
+        <div class="swiper-button-next slider-arrow">
+          <ion-icon name="arrow-forward-outline"></ion-icon>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+</div></div>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="{% static 'js/script.js' %}"></script>
+
+
+
+
+{% endblock %}
