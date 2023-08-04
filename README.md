@@ -1,4 +1,4 @@
-# Sabrocito (c12-17-t-python)
+# Sabrosito (c12-17-t-python)
 Bienvenido al repositorio de Sabrosito, un sistema de delivery diseñado para el restaurante de comida mexicana "Sabrosito". Este proyecto combina tecnologías modernas como Bootstrap, Django, MySQL y Javascript para ofrecer una plataforma fácil de usar y eficiente para realizar pedidos de comida en línea.
 ## Características
 Sabrocito ofrece una interfaz amigable y responsiva para una experiencia de usuario óptima en dispositivos móviles y de escritorio. Esto tambien incluye:
